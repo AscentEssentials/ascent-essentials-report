@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.9...1.1.10) (2024-01-11)
+
+
+### Documentation
+
+* add subsection in chapter 3 ([fb36aa0](https://github.com/AscentEssentials/ascent-essentials-report/commit/fb36aa0a00a1f26222ad00ec386d8cdd55d13d4c))
+
 ## [1.1.9](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.8...1.1.9) (2024-01-11)
 
 
