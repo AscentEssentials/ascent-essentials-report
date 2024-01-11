@@ -150,5 +150,90 @@ In Figura \ref{fig:site-map} viene presentata la mappa dei componenti dell'inter
 \end{figure}
 
 \section{Backend}
+Il backend dell'E-commerce è progettato seguendo un'architettura RESTful con operazioni CRUD.
+
+\subsection{Struttura delle Classi}
+\begin{itemize}
+    \item \textbf{Classi Model:} Utilizzate per definire la struttura e i campi delle entità del sistema.
+    \item \textbf{Classi Route:} Definiscono le rotte dell'API. Ogni classe route contiene un gruppo di rotte correlate.
+    \item \textbf{Classi Controller:} Utilizzate per gestire le richieste. Ogni classe controller contiene un gruppo di metodi che gestiscono le richieste.
+    \item \textbf{Middleware:} I middleware vengono eseguiti prima di ogni richiesta HTTP. Sono utilizzati per gestire l'autenticazione e l'autorizzazione.
+\end{itemize}
+
+\subsection{Documentazione dell'API}
+La documentazione dell'API è realizzata utilizzando Swagger con la specifica OpenAPI. Questo strumento semplifica la comprensione e l'utilizzo delle risorse messe a disposizione dal backend. L'interfaccia Swagger è accessibile solamente in fase di sviluppo, in quanto non è necessaria in produzione.
+Di seguito vengono indicate le rotte disponibili:
+
+\subsubsection{Cart endpoints:}
+\begin{itemize}
+    \item \textbf{GET /cart} - Restituisce il carrello dell'utente.
+    \item \textbf{POST /cart/add} - Aggiunge un prodotto al carrello dell'utente.
+    \item \textbf{PUT /cart/update} - Aggiorna la quantità di un prodotto nel carrello dell'utente.
+    \item \textbf{DELETE /cart/remove} - Rimuove un prodotto dal carrello dell'utente.
+    \item \textbf{DELETE /cart/clear} - Svuota il carrello dell'utente.
+\end{itemize}
+
+\subsubsection{Category endpoints:}
+\begin{itemize}
+    \item \textbf{GET /categories} - Restituisce tutte le categorie.
+    \item \textbf{GET /category} - Restituisce una categoria.
+    \item \textbf{POST /category} - Crea una nuova categoria.
+    \item \textbf{GET /subcategories} - Restituisce tutte le sottocategorie.
+    \item \textbf{GET /subcategory} - Restituisce una sottocategoria.
+    \item \textbf{POST /subcategory} - Crea una nuova sottocategoria.
+    \item \textbf{PUT /subcategory/\{id\}} - Aggiorna una sottocategoria.
+\end{itemize}
+
+\subsubsection{Coupons endpoints:}
+\begin{itemize}
+    \item \textbf{GET /admin/coupons} - Restituisce tutti i coupon.
+    \item \textbf{POST /admin/coupon} - Crea un nuovo coupon.
+    \item \textbf{GET /coupon/\{code\}} - Restituisce un coupon.
+    \item \textbf{DELETE /admin/coupon/\{code\}} - Rimuove un coupon.
+    \item \textbf{PATCH /admin/coupon/\{code\}} - Aggiorna lo sconto di un coupon.
+\end{itemize}
+
+\subsubsection{Notification endpoints:}
+\begin{itemize}
+    \item \textbf{GET /notifications} - Restituisce tutte le notifiche dell'utente.
+    \item \textbf{GET /admin/notifications} - Restituisce le notifiche per gli amministratori.
+    \item \textbf{DELETE /notification/\{notificationId\}} - Rimuove una notifica.
+    \item \textbf{DELETE /admin/notification/\{notificationId\}} - Rimuove una notifica per gli amministratori.
+\end{itemize}
+
+\subsubsection{Order endpoints:}
+\begin{itemize}
+    \item \textbf{GET /orders} - Restituisce tutti gli ordini dell'utente.
+    \item \textbf{GET /orders/\{orderId\}} - Restituisce un ordine.
+    \item \textbf{GET /admin/orders} - Restituisce tutti gli ordini.
+    \item \textbf{POST /order} - Crea un nuovo ordine.
+    \item \textbf{GET /admin/orders/user/\{userId\}} - Restituisce tutti gli ordini di un utente.
+    \item \textbf{PATCH /admin/orders/\{orderId\}/status} - Aggiorna lo stato di un ordine.
+    \item \textbf{DELETE /admin/orders/\{orderId\}} - Rimuove un ordine.
+\end{itemize}
+
+\subsubsection{Product endpoints:}
+\begin{itemize}
+    \item \textbf{POST /product} - Crea un nuovo prodotto.
+    \item \textbf{GET /product/image/\{imageName\}} - Serve un'immagine specifica del prodotto.
+    \item \textbf{GET /products} - Ottieni tutti i prodotti.
+    \item \textbf{GET /products/category/\{categoryId\}} - Ottieni tutti i prodotti in una categoria.
+    \item \textbf{GET /products/subcategory/\{subcategoryId\}} - Ottieni tutti i prodotti di una sottocategoria.
+    \item \textbf{GET /product/\{productId\}} - Ottieni un prodotto per ID.
+    \item \textbf{PUT /product/\{productId\}} - Aggiorna i dettagli di un prodotto.
+    \item \textbf{DELETE /product/\{productId\}} - Elimina un prodotto per ID.
+    \item \textbf{GET /products/search} - Cerca prodotti in base a una stringa di query.
+\end{itemize}
+
+\subsubsection{User endpoints:}
+\begin{itemize}
+    \item \textbf{POST /register} - Registra un nuovo utente.
+    \item \textbf{POST /login} - Effettua l'accesso come utente.
+    \item \textbf{GET /user} - Ottieni i dettagli dell'utente.
+\end{itemize}
+
+\subsection{Sicurezza e Autenticazione}
+Per garantire la sicurezza del sistema, è stato implementato un sistema di autenticazione basato su JSON Web Tokens (JWT). Le password degli utenti sono crittografate utilizzando l'algoritmo bcrypt, garantendo un'adeguata sicurezza delle credenziali. Questo approccio offre vantaggi in termini di sicurezza e scalabilità.
+
 
 \section{Database}
