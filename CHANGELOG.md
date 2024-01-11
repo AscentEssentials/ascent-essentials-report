@@ -1,3 +1,11 @@
+## [1.1.3](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.2...1.1.3) (2024-01-11)
+
+
+### Documentation
+
+* add 'swagger' section ([d796191](https://github.com/AscentEssentials/ascent-essentials-report/commit/d796191ca191a7419dfb385f6822f53265d49189))
+* add "Deployment" ([90d6cdc](https://github.com/AscentEssentials/ascent-essentials-report/commit/90d6cdcb6091aea81fa5a268f740a0a7821f0f07))
+
 ## [1.1.2](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.1...1.1.2) (2024-01-11)
 
 
