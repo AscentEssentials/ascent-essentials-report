@@ -1,3 +1,15 @@
+## [1.1.0](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.0.2...1.1.0) (2024-01-11)
+
+
+### Features
+
+* add devcontainer.json configuration for latex ([#14](https://github.com/AscentEssentials/ascent-essentials-report/issues/14)) ([da9941a](https://github.com/AscentEssentials/ascent-essentials-report/commit/da9941aed616c488bb47ac2f22b53c35b9039613))
+
+
+### Dependency updates
+
+* **deps:** update node.js to 20.11 ([32cc862](https://github.com/AscentEssentials/ascent-essentials-report/commit/32cc8627813b549fc67a0574d97b7d026f22dcd0))
+
 ## [1.0.2](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.0.1...1.0.2) (2024-01-10)
 
 
