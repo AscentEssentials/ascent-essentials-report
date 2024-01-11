@@ -120,11 +120,33 @@ Lo \textit{User-Centered Design} fa parte della filosofia di Ascent Essentials. 
 
 \subsection{Interfaccia Utente}
 
+In Figura \ref{fig:site-map} viene presentata la mappa dei componenti dell'interfaccia grafica:
+
+\begin{itemize}
+    \item \textbf{Cart (Carrello):} Rappresenta il carrello dell'utente.
+    \item \textbf{CategoriesManagement (Gestione Categorie):} Gestisce le categorie di prodotti.
+    \item \textbf{CategoryProducts (Prodotti per Categoria):} Rappresenta i prodotti all'interno di una categoria specifica.
+    \item \textbf{Checkout (Pagamento):} Gestisce il processo di pagamento e checkout.
+    \item \textbf{CouponsManagement (Gestione Coupon):} Gestisce i coupon.
+    \item \textbf{CustomerAccount (Account Cliente):} Rappresenta l'account di un cliente.
+    \item \textbf{Header:} È il coponente in testa a tutte le pagine ed associato a diverse funzionalità come Notifiche, Account Utente, Carrello, Ricerca Prodotti, etc.
+    \item \textbf{Home (Pagina Principale):} Rappresenta la pagina principale.
+    \item \textbf{NewProduct (Nuovo Prodotto):} Rappresenta la funzionalità per aggiungere nuovi prodotti.
+    \item \textbf{Notifications (Notifiche):} Gestisce le notifiche per gli utenti.
+    \item \textbf{OrdersManagement (Gestione Ordini):} Gestisce gli ordini effettuati dagli utenti.
+    \item \textbf{Product (Prodotto):} Rappresenta un singolo prodotto.
+    \item \textbf{ProductsManagement (Gestione Prodotti):} Gestisce l'inventario e le informazioni sui prodotti.
+    \item \textbf{SearchProducts (Ricerca Prodotti):} Rappresenta la funzionalità di ricerca dei prodotti.
+    \item \textbf{SupplierAccount (Account Fornitore):} Rappresenta l'account di un fornitore.
+    \item \textbf{UserAccount (Account Utente):} È un'astrazione generale dell'account utente, che può essere specializzato in CustomerAccount o SupplierAccount.
+    \item \textbf{UserLogin (Accesso Utente):} Gestisce il processo di accesso e autenticazione degli utenti.
+\end{itemize}
+
 \begin{figure}
     \centering
     \includegraphics[width=0.8\textwidth]{figures/site-map.png}
     \caption{Mappa dei componenti dell'interfaccia grafica}
-    \label{fig:detailed-architecture}
+    \label{fig:site-map}
 \end{figure}
 
 \section{Backend}
