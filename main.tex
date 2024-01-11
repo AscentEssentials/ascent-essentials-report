@@ -19,42 +19,88 @@
 
 \maketitle
 \chapter{Introduzione}
-Nel panorama sempre crescente dell'e-commerce, la necessità di fornire piattaforme specializzate che soddisfino le esigenze di comunità specifiche è diventata cruciale. In questo contesto, presentiamo il progetto "AscentEssentials", un E-Commerce dedicato agli appassionati delle attività sportive in montagna. La nostra missione è offrire una piattaforma completa e intuitiva che soddisfi le esigenze degli amanti dell'arrampicata, dell'alpinismo e del trekking, fornendo loro un accesso agevole a attrezzature e accessori di alta qualità.
+Nel panorama sempre crescente dell'e-commerce, la necessità di fornire piattaforme specializzate che soddisfino le esigenze di comunità specifiche è diventata cruciale. In questo contesto, presentiamo il progetto "AscentEssentials", un E-Commerce dedicato agli appassionati delle attività sportive in montagna. Il nostro obiettivo è offrire una piattaforma completa e intuitiva che soddisfi le esigenze degli amanti dell'arrampicata, dell'alpinismo e del trekking, fornendo loro un accesso agevole a attrezzature e accessori di alta qualità.
 
-Il team di "AscentEssentials", composto da Filippo Vissani ed Eddie Barzi, ha lavorato diligentemente per sviluppare un ambiente online che non solo semplifichi il processo di acquisto, ma che crei anche una comunità dedicata di appassionati. Attraverso una vasta gamma di funzionalità, il nostro obiettivo è rendere l'esperienza di acquisto non solo efficiente ma anche arricchente, fornendo ai nostri clienti un luogo virtuale in cui possono esplorare, acquistare e condividere la loro passione per le attività all'aria aperta.
+Il team ha lavorato per sviluppare un ambiente online che non solo semplifichi il processo di acquisto, ma che crei anche una comunità dedicata di appassionati. Attraverso una vasta gamma di funzionalità, il nostro obiettivo è rendere l'esperienza di acquisto non solo efficiente ma anche arricchente, fornendo ai clienti un luogo in cui possono esplorare, acquistare e condividere la loro passione per le attività all'aria aperta.
 
-Nel corso di questa relazione, esploreremo dettagliatamente le funzionalità chiave di "AscentEssentials", evidenziando le scelte di progettazione, le sfide affrontate e le soluzioni implementate per fornire un servizio all'altezza delle aspettative degli utenti. Da un catalogo ben curato a un sistema di checkout sicuro e intuitivo, ogni aspetto del progetto è stato attentamente considerato per garantire un'esperienza senza soluzione di continuità per gli acquirenti e i commercianti.
-
-Siamo entusiasti di presentare "AscentEssentials" come una risorsa affidabile e coinvolgente per la comunità degli sportivi in montagna, contribuendo a connettere gli appassionati e fornendo loro gli strumenti necessari per esplorare e perseguire le proprie passioni. Iniziamo il nostro viaggio attraverso le funzionalità e le sfide affrontate in questa avventura di e-commerce specializzato.
+Nel corso di questa relazione, esploreremo dettagliatamente le funzionalità chiave di "AscentEssentials", evidenziando le scelte di progettazione, le sfide affrontate e le soluzioni implementate per fornire un servizio all'altezza delle aspettative degli utenti. Dal un catalogo dei prodotti al sistema di checkout sicuro e intuitivo, ogni aspetto del progetto è stato attentamente considerato per garantire un'esperienza senza soluzione di continuità per gli acquirenti e i commercianti.
 
 \chapter{Requisiti}
-Descrizione delle caratteristiche e funzionalità che il sistema prevede. 
+% Descrizione delle caratteristiche e funzionalità che il sistema prevede. 
 
 \chapter{Design}
-Design dell'architettura del sistema e delle interfacce utente.
+% Design dell'architettura del sistema e delle interfacce utente.
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.44]{deathStar2.jpg}
-\caption{Death Star}
-\label{fig:deathstar}
-\end{figure}
+\section{Frontend}
+
+\section{Backend}
+
+\section{Database}
+
 
 \chapter{Tecnologie}
-Tecnologie adottate e motivazioni.
+%Tecnologie adottate e motivazioni.
+
+\section{MongoDB}
+
+MongoDB è un sistema di gestione di database (DBMS) di tipo NoSQL, progettato per gestire grandi quantità di dati non strutturati o semi-strutturati. A differenza dei tradizionali database relazionali, MongoDB utilizza un modello di dati flessibile basato su documenti JSON-like chiamati BSON, che consente di memorizzare dati in modo gerarchico e scalabile. Grazie alla sua architettura distribuita, MongoDB offre elevate prestazioni e scalabilità orizzontale, consentendo di gestire facilmente enormi volumi di dati su sistemi distribuiti.
+
+\section{Express}
+
+Express è un framework web leggero e flessibile basato su Node.js, progettato per semplificare lo sviluppo di applicazioni Web e API. Essenzialmente, Express fornisce un set di strumenti e funzionalità che facilitano la creazione di server Web robusti e scalabili utilizzando JavaScript o TypeScript. Con una struttura minimale ma potente, Express permette agli sviluppatori di gestire facilmente le richieste HTTP, definire route, gestire parametri e risposte, rendendo il processo di sviluppo web più efficiente ed intuitivo.
+
+\section{Angular}
+
+Angular è un framework open source sviluppato da Google, utilizzato per la creazione di Single Page Application (SPA). Basato su TypeScript, Angular offre una struttura robusta e modulare che facilita lo sviluppo di applicazioni complesse e scalabili. Una delle caratteristiche distintive di Angular è il concetto di "two-way data binding", che semplifica la sincronizzazione automatica tra il modello e la vista dell'applicazione. Grazie al sistema di dependency injection integrato, Angular promuove la modularità del codice e la riutilizzabilità dei componenti, facilitando la manutenzione e l'espansione delle applicazioni nel tempo. 
+
+\section{Node.js}
+
+Node.js è un ambiente di runtime open source basato sul motore JavaScript V8 di Google Chrome. Progettato per eseguire codice JavaScript lato server, Node.js consente agli sviluppatori di creare applicazioni web scalabili e ad alte prestazioni. La sua architettura a eventi e non bloccante consente l'esecuzione di operazioni simultanee, rendendo Node.js particolarmente adatto per applicazioni real-time e su larga scala.
+
+\section{NPM}
+
+Node Package Manager (NPM), è il gestore di pacchetti predefinito per Node.js. Si tratta di un build system che consente agli sviluppatori di Node.js di scoprire, installare e gestire le dipendenze del progetto in modo efficiente. NPM si integra strettamente con l'ecosistema di Node.js e offre accesso a una vasta gamma di pacchetti e librerie open source disponibili nel suo registro pubblico. Gli sviluppatori possono utilizzare NPM per installare, aggiornare e rimuovere pacchetti, semplificando così il processo di gestione delle dipendenze nei loro progetti.
+
+\section{TypeScript}
+
+TypeScript è un linguaggio di programmazione open source sviluppato da Microsoft che estende JavaScript aggiungendo un sistema di tipi statico. Una delle principali differenze tra TypeScript e JavaScript è proprio l'introduzione dei tipi, che consente agli sviluppatori di dichiarare il tipo di variabili, parametri di funzioni e altro ancora. Questo offre numerosi vantaggi, tra cui una migliore comprensione del codice, una rilevazione più precoce degli errori e una maggiore facilità di manutenzione. 
+
+\section{Docker}
+
+Docker è una piattaforma open source che facilita la creazione, la distribuzione e l'esecuzione di applicazioni grazie all'utilizzo dei container. Un container Docker è un'unità che include l'applicazione e tutte le sue dipendenze, garantendo la coerenza dell'ambiente di esecuzione su qualsiasi sistema in cui viene eseguito Docker. Questo approccio consente agli sviluppatori di isolare le applicazioni dal sistema operativo sottostante, migliorando la portabilità e semplificando la gestione delle dipendenze.
+
+Docker Compose, d'altra parte, è uno strumento che accompagna Docker, consentendo agli sviluppatori di definire e gestire applicazioni multi-container. Con Docker Compose è possibile descrivere l'intera architettura dell'applicazione, specificando servizi, reti e volumi necessari. Ciò semplifica la distribuzione e la gestione di applicazioni complesse che coinvolgono più contenitori, facilitando la configurazione e l'orchestrazione di ambienti di sviluppo e produzione.
+
+\section{GitHub}
+
+GitHub è una piattaforma di sviluppo collaborativo basata su Git, che offre diverse funzionalità per semplificare la gestione dei progetti software.
+
+Le GitHub Organizations sono spazi di lavoro in cui gli sviluppatori possono collaborare su progetti comuni, condividendo facilmente repository e impostando politiche di accesso.
+
+I GitHub Projects forniscono strumenti di gestione dei progetti, consentendo di organizzare le attività, tenere traccia dei compiti e visualizzare lo stato di avanzamento del lavoro. Questi progetti possono essere personalizzati per adattarsi alle esigenze specifiche del team.
+
+Le Pull Requests sono una funzionalità chiave di GitHub che consente agli sviluppatori di proporre modifiche al codice sorgente. Le Pull Requests facilitano la revisione del codice, il feedback e l'integrazione delle modifiche nel repository principale.
+
+Le Issues sono utilizzate per tenere traccia dei problemi, delle idee o delle attività all'interno di un progetto. Possono essere etichettate, assegnate e discusse, fornendo uno strumento centralizzato per la gestione delle attività.
+
+GitHub Actions è una caratteristica di automazione che permette di definire flussi di lavoro personalizzati all'interno del proprio repository. Questi flussi di lavoro automatizzano processi come la compilazione, i test e la distribuzione, migliorando l'efficienza dello sviluppo e garantendo una maggiore qualità del codice.
+
+\section{Renovate}
+
+Renovate è uno strumento di automazione progettato per semplificare il processo di manutenzione delle dipendenze dei progetti software. Funzionando come un bot all'interno di piattaforme di hosting di codice come GitHub, GitLab e Bitbucket, Renovate monitora continuamente i repository per individuare le dipendenze obsolete e propone automaticamente aggiornamenti. Questo bot è particolarmente utile per garantire che le librerie e le dipendenze del progetto siano mantenute aggiornate alle versioni più recenti, contribuendo a migliorare la sicurezza e la stabilità del codice.
 
 \chapter{Codice}
-Solo aspetti rilevanti.
+% Solo aspetti rilevanti.
 
 \chapter{Test}
-Test effettuati sul codice e test con utenti.
+% Test effettuati sul codice e test con utenti.
 
 \chapter{Deployment}
-Rilascio, installazione e messa in funzione.
+% Rilascio, installazione e messa in funzione.
 
 
 \chapter{Conclusioni}
-Conclusioni
+% Conclusioni
 
 \bibliographystyle{plain}
 \bibliography{references}
