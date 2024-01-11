@@ -1,3 +1,15 @@
+## [1.1.6](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.5...1.1.6) (2024-01-11)
+
+
+### Documentation
+
+* add personas ([6343b22](https://github.com/AscentEssentials/ascent-essentials-report/commit/6343b2288e24f0c9f2fc8752c1fa23b6449f28a8))
+
+
+### Refactoring
+
+* split chapters in different files ([2f22dc1](https://github.com/AscentEssentials/ascent-essentials-report/commit/2f22dc12e36012250afff67722c1cdb6f13784ab))
+
 ## [1.1.5](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.4...1.1.5) (2024-01-11)
 
 
