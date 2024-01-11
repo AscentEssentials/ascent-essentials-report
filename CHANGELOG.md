@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.3...1.1.4) (2024-01-11)
+
+
+### Documentation
+
+* add sections in "Codice" ([f683306](https://github.com/AscentEssentials/ascent-essentials-report/commit/f68330632a200ec12dd251573357baa7e5fb4b89))
+
 ## [1.1.3](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.2...1.1.3) (2024-01-11)
 
 
