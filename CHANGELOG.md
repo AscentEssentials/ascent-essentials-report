@@ -1,3 +1,10 @@
+## [1.1.8](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.7...1.1.8) (2024-01-11)
+
+
+### Documentation
+
+* add paragraph in "Design" ([68d7245](https://github.com/AscentEssentials/ascent-essentials-report/commit/68d724542b6283aa44e015fd7421e6539685754e))
+
 ## [1.1.7](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.6...1.1.7) (2024-01-11)
 
 
