@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.6...1.1.7) (2024-01-11)
+
+
+### Documentation
+
+* remove fake information ([6730b35](https://github.com/AscentEssentials/ascent-essentials-report/commit/6730b351dd5f8a28ea90434c3dec73fdf13735f3))
+
 ## [1.1.6](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.5...1.1.6) (2024-01-11)
 
 
