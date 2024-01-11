@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.1...1.1.2) (2024-01-11)
+
+
+### Documentation
+
+* improve "Introduzione" and add "Tecnologie" ([2189e34](https://github.com/AscentEssentials/ascent-essentials-report/commit/2189e348c4306ef5ec568cf1d9e56ed4fd8f15fd))
+
 ## [1.1.1](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.0...1.1.1) (2024-01-11)
 
 
