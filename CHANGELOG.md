@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.0...1.1.1) (2024-01-11)
+
+
+### Bug Fixes
+
+* remove curly braces ([78e1bcb](https://github.com/AscentEssentials/ascent-essentials-report/commit/78e1bcba9d91bd4cd537f831a3955fe5b33641ec))
+
 ## [1.1.0](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.0.2...1.1.0) (2024-01-11)
 
 
