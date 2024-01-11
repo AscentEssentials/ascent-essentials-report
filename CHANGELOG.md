@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.12...1.1.13) (2024-01-11)
+
+
+### Documentation
+
+* add Semantic Release section ([b060c76](https://github.com/AscentEssentials/ascent-essentials-report/commit/b060c765d14ee0a8f19bad98af4bce6f379914de))
+
 ## [1.1.12](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.11...1.1.12) (2024-01-11)
 
 
