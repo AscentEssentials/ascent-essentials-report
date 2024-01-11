@@ -1,0 +1,41 @@
+@startuml
+
+left to right direction
+
+object Cart
+object CategoriesManagement
+object CategoryProducts
+object Checkout
+object CouponsManagement
+object CustomerAccount
+object Header
+object Home
+object NewProduct
+object Notifications
+object OrdersManagement
+object Product
+object ProductsManagement
+object SearchProducts
+object SupplierAccount
+object UserAccount
+object UserLogin
+
+Notifications <|-- Header
+UserAccount <|-- Header
+Cart <|-- Header
+SearchProducts <|-- Header
+CategoryProducts <|-- Header
+Home <|-- Header
+UserLogin <|-- Header
+CustomerAccount <|-- UserAccount
+SupplierAccount <|-- UserAccount
+CouponsManagement <|-- SupplierAccount
+OrdersManagement <|-- SupplierAccount
+ProductsManagement <|-- SupplierAccount
+CategoriesManagement <|-- SupplierAccount
+NewProduct <|-- ProductsManagement
+Product <|-- CategoryProducts
+Product <|-- SearchProducts
+Checkout <|-- Cart
+
+@enduml
