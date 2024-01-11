@@ -1,3 +1,15 @@
+## [1.1.9](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.8...1.1.9) (2024-01-11)
+
+
+### Features
+
+* add requirements chapter ([#15](https://github.com/AscentEssentials/ascent-essentials-report/issues/15)) ([40e1e8b](https://github.com/AscentEssentials/ascent-essentials-report/commit/40e1e8bd989dca68ac239ec4f2bb26d20f404037))
+
+
+### Documentation
+
+* add site map ([0a1546b](https://github.com/AscentEssentials/ascent-essentials-report/commit/0a1546bdf619bb0b019678cec8c3538c42798b4a))
+
 ## [1.1.8](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.7...1.1.8) (2024-01-11)
 
 
