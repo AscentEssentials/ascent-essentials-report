@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.4...1.1.5) (2024-01-11)
+
+
+### Documentation
+
+* add author ([9d5fb6b](https://github.com/AscentEssentials/ascent-essentials-report/commit/9d5fb6bca3d66fe39d1c0a55bff823a14205e27a))
+* add more sections ([bf8d38a](https://github.com/AscentEssentials/ascent-essentials-report/commit/bf8d38ad5a184b495c38dfdb33ddad7ee5ad50a8))
+
 ## [1.1.4](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.3...1.1.4) (2024-01-11)
 
 
