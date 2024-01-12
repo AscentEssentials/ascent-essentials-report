@@ -1,3 +1,10 @@
+## [1.1.24](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.23...1.1.24) (2024-01-12)
+
+
+### Documentation
+
+* remove paragraph ([a4960d9](https://github.com/AscentEssentials/ascent-essentials-report/commit/a4960d912151918d065b6049d7387a279ef377e0))
+
 ## [1.1.23](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.22...1.1.23) (2024-01-12)
 
 
