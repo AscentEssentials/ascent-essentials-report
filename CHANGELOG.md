@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.17...1.1.18) (2024-01-12)
+
+
+### Documentation
+
+* add conclusions ([5ceefff](https://github.com/AscentEssentials/ascent-essentials-report/commit/5ceefff1d841fed190d54c5dcae17cc7b817bfee))
+
 ## [1.1.17](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.16...1.1.17) (2024-01-12)
 
 
