@@ -40,11 +40,13 @@ Come si può vedere dal seguente codice di esempio, le operazioni sono definite 
 \subsection{Middleware}
 I \textit{middleware} vengono eseguiti prima di eseguire le operazioni definite nelle \textit{routes}.
 
-Sono stati definiti due \textit{middleware} per gestire l'autenticazione e l'autorizzazione degli utenti:
+\subsubsection{Autenticazione}
 
 \lstinputlisting[style=JavaScript]{listings/backend.auth.ts}
 
 Come si può vedere dal codice, il \textit{middleware} di autenticazione controlla se nella richiesta è presente un token valido, e in caso affermativo, aggiunge i dettagli dell'utente alla richiesta.
+
+\subsubsection{Autorizzazione}
 
 \lstinputlisting[style=JavaScript]{listings/backend.isAdmin.ts}
 
