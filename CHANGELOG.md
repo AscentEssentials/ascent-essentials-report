@@ -1,3 +1,10 @@
+## [1.1.22](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.21...1.1.22) (2024-01-12)
+
+
+### Bug Fixes
+
+* move figure in correct section ([b61f486](https://github.com/AscentEssentials/ascent-essentials-report/commit/b61f4868bf61bf58ed7f4e52544860c1fcac9ddb))
+
 ## [1.1.21](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.20...1.1.21) (2024-01-12)
 
 
