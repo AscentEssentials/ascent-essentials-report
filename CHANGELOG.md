@@ -1,3 +1,12 @@
+## [1.1.16](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.15...1.1.16) (2024-01-12)
+
+
+### Documentation
+
+* add backend routes and middleware code ([928e0b7](https://github.com/AscentEssentials/ascent-essentials-report/commit/928e0b79011a423164d4d2a98bbe5ab6ebb0bef6))
+* add socket backend code ([465a6fd](https://github.com/AscentEssentials/ascent-essentials-report/commit/465a6fd73328a51f49691675aeedf65bdcb34769))
+* refactor middleware backend code section ([304d767](https://github.com/AscentEssentials/ascent-essentials-report/commit/304d76786ecd8373c9c67d3e0d8c188876e1b676))
+
 ## [1.1.15](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.14...1.1.15) (2024-01-12)
 
 
