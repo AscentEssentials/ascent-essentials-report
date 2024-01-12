@@ -1,3 +1,10 @@
+## [1.1.29](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.28...1.1.29) (2024-01-12)
+
+
+### Documentation
+
+* add citation ([155752b](https://github.com/AscentEssentials/ascent-essentials-report/commit/155752bda51f7790c6f26a1350858693053159a0))
+
 ## [1.1.28](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.27...1.1.28) (2024-01-12)
 
 
