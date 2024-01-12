@@ -235,6 +235,29 @@ Di seguito vengono indicate le rotte disponibili:
 \subsection{Sicurezza e Autenticazione}
 Per garantire la sicurezza del sistema, è stato implementato un sistema di autenticazione basato su JSON Web Tokens (JWT). Le password degli utenti sono crittografate utilizzando l'algoritmo bcrypt, garantendo un'adeguata sicurezza delle credenziali. Questo approccio offre vantaggi in termini di sicurezza e scalabilità.
 
+\subsection{Notifiche in Tempo Reale}
+Per garantire una comunicazione in tempo reale tra il server e i client, è stato utilizzato Socket.IO. Questa libreria consente una comunicazione bidirezionale, permettendo al server di inviare aggiornamenti e notifiche ai client senza la necessità di richieste periodiche.
+
+\subsubsection{Gestione degli Eventi}
+
+Nel backend, sono stati definiti vari eventi Socket.IO per gestire diverse interazioni con i client. Ad esempio:
+
+\begin{itemize}
+    \item \textbf{Client Login (\texttt{client-login}):} Questo evento gestisce l'autenticazione di un utente e associa il suo socket al suo ID utente. Questa associazione è cruciale per l'invio di notifiche personalizzate.
+
+    \item \textbf{User Disconnect (\texttt{disconnect}):} Gestisce l'evento di disconnessione di un utente, rimuovendo l'associazione tra l'utente e il socket corrispondente.
+
+    \item \textbf{New Notification (\texttt{new-notification}):} Questo evento permette l'invio di nuove notifiche ai client. Le notifiche vengono inviate in modo mirato, grazie all'associazione tra gli utenti e i loro socket.
+\end{itemize}
+
+\subsubsection{Gestione degli Utenti Connessi}
+
+Per mantenere traccia degli utenti connessi, è stata utilizzata una mappa che associa gli ID utente ai rispettivi socket. Ciò consente al server di inviare notifiche dirette agli utenti specifici.
+
+\subsubsection{Emissione di Eventi}
+
+Sono state implementate funzioni per l'emissione mirata di eventi a utenti specifici o a tutti gli amministratori connessi. Ad esempio, la funzione \texttt{emitEventToUser} permette l'invio di eventi a un utente specifico, mentre \texttt{emitEventToAdmins} emette eventi a tutti gli amministratori connessi.
+
 
 \section{Database}
 Per gestire la persistenza dei dati, è stato adottato MongoDB come sistema di database, utilizzando la libreria Mongoose per semplificare l'interazione con il database NoSQL.
