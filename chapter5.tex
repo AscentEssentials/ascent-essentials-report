@@ -31,3 +31,21 @@ I \textit{guard} in Angular consentono di controllare l'accesso alle parti speci
 \lstinputlisting[style=JavaScript]{listings/user-permission.guard.ts}
 
 \section{Backend}
+
+\subsection{Routes}
+Le \textit{routes} in Express consentono di definire le azioni da eseguire quando viene ricevuta una richiesta HTTP.
+Come si può vedere dal seguente codice, le operazioni sono definite in un controller, che è un file separato che contiene la logica di business:
+\lstinputlisting[style=JavaScript]{listings/backend.routes.ts}
+
+\subsection{Middleware}
+I \textit{middleware} vengono eseguiti prima di eseguire le operazioni definite nelle \textit{routes}.
+
+Sono stati definiti due \textit{middleware} per gestire l'autenticazione e l'autorizzazione degli utenti:
+
+\lstinputlisting[style=JavaScript]{listings/backend.auth.ts}
+
+Come si può vedere dal codice, il \textit{middleware} di autenticazione controlla se nella richiesta è presente un token valido, e in caso affermativo, aggiunge i dettagli dell'utente alla richiesta.
+
+\lstinputlisting[style=JavaScript]{listings/backend.isAdmin.ts}
+
+Questo \textit{middleware} controlla se l'utente è un amministratore e, in caso affermativo, consente di accedere alla risorsa richiesta.
