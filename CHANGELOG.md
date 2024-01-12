@@ -1,3 +1,10 @@
+## [1.1.20](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.19...1.1.20) (2024-01-12)
+
+
+### Documentation
+
+* add bibliography ([0a01a83](https://github.com/AscentEssentials/ascent-essentials-report/commit/0a01a838db69ac21c403b929ed616f384cecb7a4))
+
 ## [1.1.19](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.18...1.1.19) (2024-01-12)
 
 
