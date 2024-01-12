@@ -1,7 +1,7 @@
 \chapter{Deployment}
 % Rilascio, installazione e messa in funzione.
 
-Per il deployment viene fornito un file Docker Compose, che permette di avviare tutti i servizi necessari al funzionamento dell'applicazione. Il file include un server MongoDB, un pannello di controllo di MongoDB, il servizio backend e il servizio frontend. I servizi sono configurati per comunicare tra loro e le variabili d'ambiente necessarie sono impostate per un corretto funzionamento. Lo storage persistente dei dati è garantito per MongoDB e gli upload di file tramite volumi montati. Il frontend Angular dipende dal backend Node.js e entrambi dipendono dal servizio MongoDB.
+Per il deployment viene fornito un file Docker Compose, che permette di avviare tutti i servizi necessari al funzionamento dell'applicazione. Il file include un server MongoDB, un pannello di controllo di MongoDB, il servizio backend e il servizio frontend. I servizi sono configurati per comunicare tra loro e le variabili d'ambiente necessarie sono impostate per un corretto funzionamento. Lo storage persistente dei dati è garantito per MongoDB e gli upload di file tramite volumi montati. Il frontend Angular dipende dal backend Node.js, il quale dipende dal servizio MongoDB.
 
 Descrizione dettagliata dei servizi presenti nel file \texttt{docker-compose.yml}:
 
@@ -34,7 +34,6 @@ Descrizione dettagliata dei servizi presenti nel file \texttt{docker-compose.yml
         \item Dipende dal servizio backend.
         \item Costruisce un'immagine utilizzando il Dockerfile.frontend.
         \item Collega la porta 4200 all'host.
-        \item Configura le variabili d'ambiente per la connessione a MongoDB.
     \end{itemize}
 \end{itemize}
 
