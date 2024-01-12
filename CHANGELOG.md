@@ -1,3 +1,16 @@
+## [1.1.28](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.27...1.1.28) (2024-01-12)
+
+
+### Bug Fixes
+
+* fix typos ([833519a](https://github.com/AscentEssentials/ascent-essentials-report/commit/833519abb982ebc2d5bf5873613d96c09fa5de72))
+
+
+### Documentation
+
+* add section in chapter 6 ([91791da](https://github.com/AscentEssentials/ascent-essentials-report/commit/91791da366a65a61bc68a44b6de02685a763a22a))
+* improve paragraphs ([a0cf527](https://github.com/AscentEssentials/ascent-essentials-report/commit/a0cf527fed3cfb9ce41a1c3f3bc91d7568f9f5b4))
+
 ## [1.1.27](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.26...1.1.27) (2024-01-12)
 
 
