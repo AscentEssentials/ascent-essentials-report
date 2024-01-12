@@ -34,7 +34,7 @@ I \textit{guard} in Angular consentono di controllare l'accesso alle parti speci
 
 \subsection{Routes}
 Le \textit{routes} in Express consentono di definire le azioni da eseguire quando viene ricevuta una richiesta HTTP.
-Come si può vedere dal seguente codice, le operazioni sono definite in un controller, che è un file separato che contiene la logica di business:
+Come si può vedere dal seguente codice di esempio, le operazioni sono definite in un controller, che è un file separato che contiene la logica di business:
 \lstinputlisting[style=JavaScript]{listings/backend.routes.ts}
 
 \subsection{Middleware}
@@ -49,3 +49,9 @@ Come si può vedere dal codice, il \textit{middleware} di autenticazione control
 \lstinputlisting[style=JavaScript]{listings/backend.isAdmin.ts}
 
 Questo \textit{middleware} controlla se l'utente è un amministratore e, in caso affermativo, consente di accedere alla risorsa richiesta.
+
+\subsection{Websocket}
+Come si può vedere dal seguente codice, quando un utente si connette, il suo ID viene associato al socket utilizzato per la connessione. Questo consente di inviare messaggi a utenti specifici.
+
+\lstinputlisting[style=JavaScript]{listings/backend.socket.ts}
+
