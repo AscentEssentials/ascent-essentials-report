@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.13...1.1.14) (2024-01-12)
+
+
+### Documentation
+
+* backend design ([#16](https://github.com/AscentEssentials/ascent-essentials-report/issues/16)) ([2295b3e](https://github.com/AscentEssentials/ascent-essentials-report/commit/2295b3e05fc6580c251e84e1d4e8502f48e24209))
+
 ## [1.1.13](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.12...1.1.13) (2024-01-11)
 
 
