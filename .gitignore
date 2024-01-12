@@ -7,4 +7,5 @@
 *.synctex.gz
 *.bbl
 *.out
+*.toc
 /out
