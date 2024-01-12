@@ -237,3 +237,23 @@ Per garantire la sicurezza del sistema, è stato implementato un sistema di aute
 
 
 \section{Database}
+Per gestire la persistenza dei dati, è stato adottato MongoDB come sistema di database, utilizzando la libreria Mongoose per semplificare l'interazione con il database NoSQL.
+
+Il database è stato progettato seguendo uno schema che riflette la struttura delle entità nel sistema.
+Le entità presenti nel database sono le seguenti:
+\begin{itemize}
+    \item \textbf{Cart:} Rappresenta il carrello di un utente.
+    \item \textbf{Category:} Rappresenta una categoria di prodotti.
+    \item \textbf{Coupon:} Rappresenta un coupon.
+    \item \textbf{Notification:} Rappresenta una notifica.
+    \item \textbf{Order:} Rappresenta un ordine.
+    \item \textbf{Product:} Rappresenta un prodotto.
+    \item \textbf{Subcategory:} Rappresenta una sottocategoria di prodotti.
+    \item \textbf{User:} Rappresenta un utente.
+\end{itemize}
+
+Sono stati implementati indici su specifici campi al fine di ottimizzare le query e potenziare le prestazioni del database. Inoltre, sono state instaurate relazioni tra le diverse entità per agevolare l'accesso ai dati correlati. Un esempio di ciò è la correlazione tra un prodotto e una sottocategoria, semplificando notevolmente l'accesso alle informazioni pertinenti.
+
+In aggiunta, alcuni schemi sono stati definiti con validazioni personalizzate per garantire la coerenza dei dati, come ad esempio l'assicurarsi che le sottocategorie e i prodotti referenziati siano validi.
+
+Laddove necessario, sono stati impiegati timestamp automatici per registrare la data di creazione e gli eventuali aggiornamenti di un documento.
