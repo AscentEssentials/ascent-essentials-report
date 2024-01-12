@@ -1,3 +1,10 @@
+## [1.1.25](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.24...1.1.25) (2024-01-12)
+
+
+### Documentation
+
+* add requirement ([c7a00ef](https://github.com/AscentEssentials/ascent-essentials-report/commit/c7a00effdfbb8b0c043aafce97c4a3dd15bc2669))
+
 ## [1.1.24](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.23...1.1.24) (2024-01-12)
 
 
