@@ -1,3 +1,12 @@
+## [1.1.15](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.14...1.1.15) (2024-01-12)
+
+
+### Documentation
+
+* add database design ([1960936](https://github.com/AscentEssentials/ascent-essentials-report/commit/1960936ea348418e452acfc47f3d1dad0ec03c79))
+* add socket.io in the backend ([c39b2ba](https://github.com/AscentEssentials/ascent-essentials-report/commit/c39b2ba2426f2359e134b655b210b0845ca8a05c))
+* improve subsection of jwt in the backend ([8b1a205](https://github.com/AscentEssentials/ascent-essentials-report/commit/8b1a205144e0b57db52d96545a5c01ad483e12d4))
+
 ## [1.1.14](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.13...1.1.14) (2024-01-12)
 
 
