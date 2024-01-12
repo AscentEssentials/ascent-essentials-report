@@ -1,3 +1,10 @@
+## [1.1.26](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.25...1.1.26) (2024-01-12)
+
+
+### Bug Fixes
+
+* fix typos ([13ff5b9](https://github.com/AscentEssentials/ascent-essentials-report/commit/13ff5b996eb230b649863c9a8620afa85983c938))
+
 ## [1.1.25](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.24...1.1.25) (2024-01-12)
 
 
