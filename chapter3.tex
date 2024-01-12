@@ -233,7 +233,10 @@ Di seguito vengono indicate le rotte disponibili:
 \end{itemize}
 
 \subsection{Sicurezza e Autenticazione}
-Per garantire la sicurezza del sistema, è stato implementato un sistema di autenticazione basato su JSON Web Tokens (JWT). Le password degli utenti sono crittografate utilizzando l'algoritmo bcrypt, garantendo un'adeguata sicurezza delle credenziali. Questo approccio offre vantaggi in termini di sicurezza e scalabilità.
+Per garantire la sicurezza del sistema, è stato implementato un sistema di autenticazione basato su JSON Web Tokens (JWT).
+Quando un utente effettua l'accesso, viene generato un token JWT contenente le informazioni dell'utente. Questo token viene utilizzato per autenticare le richieste successive. Inoltre, il token contiene un timestamp che indica la data di scadenza. Questo approccio permette di fornire alcune route solo agli utenti autenticati, come ad esempio la gestione del carrello e degli ordini.
+
+Le password degli utenti sono crittografate utilizzando l'algoritmo bcrypt, garantendo un'adeguata sicurezza delle credenziali. Questo approccio offre vantaggi in termini di sicurezza e scalabilità.
 
 \subsection{Notifiche in Tempo Reale}
 Per garantire una comunicazione in tempo reale tra il server e i client, è stato utilizzato Socket.IO. Questa libreria consente una comunicazione bidirezionale, permettendo al server di inviare aggiornamenti e notifiche ai client senza la necessità di richieste periodiche.
