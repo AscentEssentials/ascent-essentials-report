@@ -1,3 +1,10 @@
+## [1.1.21](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.20...1.1.21) (2024-01-12)
+
+
+### Documentation
+
+* add index ([2cb84c8](https://github.com/AscentEssentials/ascent-essentials-report/commit/2cb84c8d2e00e1992d35ba9d237c7e604ae244a0))
+
 ## [1.1.20](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.19...1.1.20) (2024-01-12)
 
 
