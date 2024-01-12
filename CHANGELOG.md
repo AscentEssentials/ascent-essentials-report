@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.18...1.1.19) (2024-01-12)
+
+
+### Documentation
+
+* add section in chapter6 ([a4f4d64](https://github.com/AscentEssentials/ascent-essentials-report/commit/a4f4d647c9c49377fdf99ac866d15b77fc61a82a))
+
 ## [1.1.18](https://github.com/AscentEssentials/ascent-essentials-report/compare/1.1.17...1.1.18) (2024-01-12)
 
 
